@@ -9,7 +9,7 @@ receivers:
     sns_configs:
     - sigv4:
         region: eu-central-1
-      topic_arn: arn:aws:sns:eu-central-1:303368150375:prometheus-alerts
+      topic_arn:
 inhibit_rules:
   - source_match:
       severity: 'critical'
